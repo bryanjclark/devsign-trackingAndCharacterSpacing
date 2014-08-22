@@ -3,7 +3,7 @@ devsign-trackingAndCharacterSpacing
 
 A look at getting typography tracking built out in iOS.
 
-This article was originally posted [here](www.devsign.co).
+This article was originally posted [here](http://www.devsign.co/notes/tracking-and-character-spacing).
 
 In tools like Photoshop and InDesign, "tracking" is the term that describes the relative amount of spacing between characters in a string of text.
 
