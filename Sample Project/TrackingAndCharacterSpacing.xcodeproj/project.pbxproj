@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5300010319A707320062B12D /* NSAttributedString+DVSTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5300010219A707320062B12D /* NSAttributedString+DVSTracking.m */; };
+		53E70AFE19A6F7CC00D07441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E70AFD19A6F7CC00D07441 /* Foundation.framework */; };
+		53E70B0019A6F7CC00D07441 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E70AFF19A6F7CC00D07441 /* CoreGraphics.framework */; };
+		53E70B0219A6F7CC00D07441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E70B0119A6F7CC00D07441 /* UIKit.framework */; };
+		53E70B0819A6F7CC00D07441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53E70B0619A6F7CC00D07441 /* InfoPlist.strings */; };
+		53E70B0A19A6F7CC00D07441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E70B0919A6F7CC00D07441 /* main.m */; };
+		53E70B0E19A6F7CC00D07441 /* DVSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E70B0D19A6F7CC00D07441 /* DVSAppDelegate.m */; };
+		53E70B1019A6F7CC00D07441 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53E70B0F19A6F7CC00D07441 /* Images.xcassets */; };
+		53E70B1719A6F7CD00D07441 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E70B1619A6F7CD00D07441 /* XCTest.framework */; };
+		53E70B1819A6F7CD00D07441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E70AFD19A6F7CC00D07441 /* Foundation.framework */; };
+		53E70B1919A6F7CD00D07441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E70B0119A6F7CC00D07441 /* UIKit.framework */; };
+		53E70B2119A6F7CD00D07441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53E70B1F19A6F7CD00D07441 /* InfoPlist.strings */; };
+		53E70B2319A6F7CD00D07441 /* TrackingAndCharacterSpacingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E70B2219A6F7CD00D07441 /* TrackingAndCharacterSpacingTests.m */; };
+		53E70B2E19A6F7DD00D07441 /* DVSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53E70B2D19A6F7DD00D07441 /* DVSViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53E70B1A19A6F7CD00D07441 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53E70AF219A6F7CC00D07441 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53E70AF919A6F7CC00D07441;
+			remoteInfo = TrackingAndCharacterSpacing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5300010119A707320062B12D /* NSAttributedString+DVSTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+DVSTracking.h"; path = "../../NSAttributedString+DVSTracking.h"; sourceTree = "<group>"; };
+		5300010219A707320062B12D /* NSAttributedString+DVSTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+DVSTracking.m"; path = "../../NSAttributedString+DVSTracking.m"; sourceTree = "<group>"; };
+		53E70AFA19A6F7CC00D07441 /* TrackingAndCharacterSpacing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackingAndCharacterSpacing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E70AFD19A6F7CC00D07441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53E70AFF19A6F7CC00D07441 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53E70B0119A6F7CC00D07441 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53E70B0519A6F7CC00D07441 /* TrackingAndCharacterSpacing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackingAndCharacterSpacing-Info.plist"; sourceTree = "<group>"; };
+		53E70B0719A6F7CC00D07441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53E70B0919A6F7CC00D07441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53E70B0B19A6F7CC00D07441 /* TrackingAndCharacterSpacing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrackingAndCharacterSpacing-Prefix.pch"; sourceTree = "<group>"; };
+		53E70B0C19A6F7CC00D07441 /* DVSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVSAppDelegate.h; sourceTree = "<group>"; };
+		53E70B0D19A6F7CC00D07441 /* DVSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVSAppDelegate.m; sourceTree = "<group>"; };
+		53E70B0F19A6F7CC00D07441 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		53E70B1519A6F7CD00D07441 /* TrackingAndCharacterSpacingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingAndCharacterSpacingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53E70B1619A6F7CD00D07441 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		53E70B1E19A6F7CD00D07441 /* TrackingAndCharacterSpacingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrackingAndCharacterSpacingTests-Info.plist"; sourceTree = "<group>"; };
+		53E70B2019A6F7CD00D07441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53E70B2219A6F7CD00D07441 /* TrackingAndCharacterSpacingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingAndCharacterSpacingTests.m; sourceTree = "<group>"; };
+		53E70B2C19A6F7DD00D07441 /* DVSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVSViewController.h; sourceTree = "<group>"; };
+		53E70B2D19A6F7DD00D07441 /* DVSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVSViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53E70AF719A6F7CC00D07441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E70B0019A6F7CC00D07441 /* CoreGraphics.framework in Frameworks */,
+				53E70B0219A6F7CC00D07441 /* UIKit.framework in Frameworks */,
+				53E70AFE19A6F7CC00D07441 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E70B1219A6F7CD00D07441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E70B1719A6F7CD00D07441 /* XCTest.framework in Frameworks */,
+				53E70B1919A6F7CD00D07441 /* UIKit.framework in Frameworks */,
+				53E70B1819A6F7CD00D07441 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53E70AF119A6F7CC00D07441 = {
+			isa = PBXGroup;
+			children = (
+				53E70B0319A6F7CC00D07441 /* TrackingAndCharacterSpacing */,
+				53E70B1C19A6F7CD00D07441 /* TrackingAndCharacterSpacingTests */,
+				53E70AFC19A6F7CC00D07441 /* Frameworks */,
+				53E70AFB19A6F7CC00D07441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53E70AFB19A6F7CC00D07441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53E70AFA19A6F7CC00D07441 /* TrackingAndCharacterSpacing.app */,
+				53E70B1519A6F7CD00D07441 /* TrackingAndCharacterSpacingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53E70AFC19A6F7CC00D07441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53E70AFD19A6F7CC00D07441 /* Foundation.framework */,
+				53E70AFF19A6F7CC00D07441 /* CoreGraphics.framework */,
+				53E70B0119A6F7CC00D07441 /* UIKit.framework */,
+				53E70B1619A6F7CD00D07441 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53E70B0319A6F7CC00D07441 /* TrackingAndCharacterSpacing */ = {
+			isa = PBXGroup;
+			children = (
+				53E70B0C19A6F7CC00D07441 /* DVSAppDelegate.h */,
+				53E70B0D19A6F7CC00D07441 /* DVSAppDelegate.m */,
+				53E70B2C19A6F7DD00D07441 /* DVSViewController.h */,
+				53E70B2D19A6F7DD00D07441 /* DVSViewController.m */,
+				5300010119A707320062B12D /* NSAttributedString+DVSTracking.h */,
+				5300010219A707320062B12D /* NSAttributedString+DVSTracking.m */,
+				53E70B0F19A6F7CC00D07441 /* Images.xcassets */,
+				53E70B0419A6F7CC00D07441 /* Supporting Files */,
+			);
+			path = TrackingAndCharacterSpacing;
+			sourceTree = "<group>";
+		};
+		53E70B0419A6F7CC00D07441 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53E70B0519A6F7CC00D07441 /* TrackingAndCharacterSpacing-Info.plist */,
+				53E70B0619A6F7CC00D07441 /* InfoPlist.strings */,
+				53E70B0919A6F7CC00D07441 /* main.m */,
+				53E70B0B19A6F7CC00D07441 /* TrackingAndCharacterSpacing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53E70B1C19A6F7CD00D07441 /* TrackingAndCharacterSpacingTests */ = {
+			isa = PBXGroup;
+			children = (
+				53E70B2219A6F7CD00D07441 /* TrackingAndCharacterSpacingTests.m */,
+				53E70B1D19A6F7CD00D07441 /* Supporting Files */,
+			);
+			path = TrackingAndCharacterSpacingTests;
+			sourceTree = "<group>";
+		};
+		53E70B1D19A6F7CD00D07441 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53E70B1E19A6F7CD00D07441 /* TrackingAndCharacterSpacingTests-Info.plist */,
+				53E70B1F19A6F7CD00D07441 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53E70AF919A6F7CC00D07441 /* TrackingAndCharacterSpacing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E70B2619A6F7CD00D07441 /* Build configuration list for PBXNativeTarget "TrackingAndCharacterSpacing" */;
+			buildPhases = (
+				53E70AF619A6F7CC00D07441 /* Sources */,
+				53E70AF719A6F7CC00D07441 /* Frameworks */,
+				53E70AF819A6F7CC00D07441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackingAndCharacterSpacing;
+			productName = TrackingAndCharacterSpacing;
+			productReference = 53E70AFA19A6F7CC00D07441 /* TrackingAndCharacterSpacing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53E70B1419A6F7CD00D07441 /* TrackingAndCharacterSpacingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53E70B2919A6F7CD00D07441 /* Build configuration list for PBXNativeTarget "TrackingAndCharacterSpacingTests" */;
+			buildPhases = (
+				53E70B1119A6F7CD00D07441 /* Sources */,
+				53E70B1219A6F7CD00D07441 /* Frameworks */,
+				53E70B1319A6F7CD00D07441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53E70B1B19A6F7CD00D07441 /* PBXTargetDependency */,
+			);
+			name = TrackingAndCharacterSpacingTests;
+			productName = TrackingAndCharacterSpacingTests;
+			productReference = 53E70B1519A6F7CD00D07441 /* TrackingAndCharacterSpacingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53E70AF219A6F7CC00D07441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DVS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Starbucks;
+				TargetAttributes = {
+					53E70B1419A6F7CD00D07441 = {
+						TestTargetID = 53E70AF919A6F7CC00D07441;
+					};
+				};
+			};
+			buildConfigurationList = 53E70AF519A6F7CC00D07441 /* Build configuration list for PBXProject "TrackingAndCharacterSpacing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53E70AF119A6F7CC00D07441;
+			productRefGroup = 53E70AFB19A6F7CC00D07441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53E70AF919A6F7CC00D07441 /* TrackingAndCharacterSpacing */,
+				53E70B1419A6F7CD00D07441 /* TrackingAndCharacterSpacingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53E70AF819A6F7CC00D07441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E70B0819A6F7CC00D07441 /* InfoPlist.strings in Resources */,
+				53E70B1019A6F7CC00D07441 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E70B1319A6F7CD00D07441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E70B2119A6F7CD00D07441 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53E70AF619A6F7CC00D07441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5300010319A707320062B12D /* NSAttributedString+DVSTracking.m in Sources */,
+				53E70B0E19A6F7CC00D07441 /* DVSAppDelegate.m in Sources */,
+				53E70B0A19A6F7CC00D07441 /* main.m in Sources */,
+				53E70B2E19A6F7DD00D07441 /* DVSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E70B1119A6F7CD00D07441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53E70B2319A6F7CD00D07441 /* TrackingAndCharacterSpacingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53E70B1B19A6F7CD00D07441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53E70AF919A6F7CC00D07441 /* TrackingAndCharacterSpacing */;
+			targetProxy = 53E70B1A19A6F7CD00D07441 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53E70B0619A6F7CC00D07441 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E70B0719A6F7CC00D07441 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53E70B1F19A6F7CD00D07441 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53E70B2019A6F7CD00D07441 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53E70B2419A6F7CD00D07441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53E70B2519A6F7CD00D07441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53E70B2719A6F7CD00D07441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackingAndCharacterSpacing/TrackingAndCharacterSpacing-Prefix.pch";
+				INFOPLIST_FILE = "TrackingAndCharacterSpacing/TrackingAndCharacterSpacing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53E70B2819A6F7CD00D07441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackingAndCharacterSpacing/TrackingAndCharacterSpacing-Prefix.pch";
+				INFOPLIST_FILE = "TrackingAndCharacterSpacing/TrackingAndCharacterSpacing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		53E70B2A19A6F7CD00D07441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrackingAndCharacterSpacing.app/TrackingAndCharacterSpacing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackingAndCharacterSpacing/TrackingAndCharacterSpacing-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TrackingAndCharacterSpacingTests/TrackingAndCharacterSpacingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		53E70B2B19A6F7CD00D07441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TrackingAndCharacterSpacing.app/TrackingAndCharacterSpacing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrackingAndCharacterSpacing/TrackingAndCharacterSpacing-Prefix.pch";
+				INFOPLIST_FILE = "TrackingAndCharacterSpacingTests/TrackingAndCharacterSpacingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53E70AF519A6F7CC00D07441 /* Build configuration list for PBXProject "TrackingAndCharacterSpacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E70B2419A6F7CD00D07441 /* Debug */,
+				53E70B2519A6F7CD00D07441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E70B2619A6F7CD00D07441 /* Build configuration list for PBXNativeTarget "TrackingAndCharacterSpacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E70B2719A6F7CD00D07441 /* Debug */,
+				53E70B2819A6F7CD00D07441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53E70B2919A6F7CD00D07441 /* Build configuration list for PBXNativeTarget "TrackingAndCharacterSpacingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53E70B2A19A6F7CD00D07441 /* Debug */,
+				53E70B2B19A6F7CD00D07441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53E70AF219A6F7CC00D07441 /* Project object */;
+}
