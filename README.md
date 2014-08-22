@@ -53,4 +53,5 @@ Here's how you'd use it in practice:
                                                                               font:[UIFont systemFontOfSize:17.f]];
 ```
 
-
+In the included sample app, you can see it in action:
+![Sample App](http://clrk.it/image/302q1m0k2y2x/tracking.gif)
